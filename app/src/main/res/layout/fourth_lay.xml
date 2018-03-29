@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/w_v"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thanks"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textColor="#8BC34A"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/climate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_above="@+id/celebrities"
+        android:text="@string/climate"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_above="@+id/climate"
+        android:text="@string/movies"
+        android:textSize="16sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/celebrities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="@string/celebrities"
+        android:textSize="16sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/healthy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_above="@+id/movies"
+        android:text="@string/healthy"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/created"
+        android:textSize="8sp"
+        android:layout_margin="7dp"
+        />
+
+    <Button
+        android:id="@+id/againB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/project"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/again"
+        android:onClick="second"
+        android:background="#AED581"
+        />
+
+
+
+</RelativeLayout>

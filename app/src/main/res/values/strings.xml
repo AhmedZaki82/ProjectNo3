@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Project No 3</string>
+    <string name="name">Please enter your name</string>
+    <string name="gender">Gender :</string>
+    <string name="F">Female</string>
+    <string name="M">Male</string>
+    <string name="age">Please enter your age</string>
+    <string name="start">Let\'s start</string>
+    <string name="q1">If you slaughtered an animal, you cause :</string>
+    <string name="rb1.1">Only a terrible pain for the animal</string>
+    <string name="rb1.2">Only you took him/her from her/his family</string>
+    <string name="rb1.3">Only you took a life of an innocent being without right</string>
+    <string name="rbx.4">All of the Above are true</string>
+    <string name="next1">next ></string>
+    <string name="q2">The animal agriculture\'s effect :</string>
+    <string name="rb2.1">Animal agriculture\'s destroy the environment only?</string>
+    <string name="rb2.2">Its emission greater than all transportation combine only?</string>
+    <string name="rb2.3">Animal agriculture\'s impact on climate change only?</string>
+    <string name="next2">next >></string>
+    <string name="q3">Eating meat causes : </string>
+    <string name="rb3.1">Just alzheimer</string>
+    <string name="rb3.2">Just heart Disease</string>
+    <string name="rb3.3">A 2015 WHO report found that bacon, hot dogs, and other processed meats only cause cancer and that red meat—including beef, pork, and lamb—is probably carcinogenic, as well</string>
+    <string name="next3">next >>></string>
+    <string name="again">Again plz</string>
+    <string name="nameJ">Your name is required!</string>
+    <string name="genderJ">You have to choose your gender!</string>
+    <string name="hiJ">Hi </string>
+    <string name="hopeJ"> I hope your day is great</string>
+    <string name="ageJ">Your age is required!</string>
+    <string name="greatJ">Great job, let\'s continue ></string>
+    <string name="sorryJ">Sorry, not the perfect answer, try again!</string>
+    <string name="chooseAnswerJ">You have to choose an answer!</string>
+    <string name="excellentJ">Excellent!, what\'s next >></string>
+    <string name="proudJ">Proud of you my friend!</string>
+    <string name="created">Project by: Ahmed Zaki</string>
+    <string name="thanks">Thanks for using the app.\nFor more information about \nVeganism
+    click the links below.
+    </string>
+
+
+    <string name="climate">
+
+<a href = "https://www.peta.org/issues/animals-used-for-food/global-warming/">Global Warming</a>
+
+    </string>
+
+
+    <string name="movies">
+
+<a href = "http://www.vegansouls.com/vegan-documentaries">Watch Movies</a>
+
+    </string>
+
+
+    <string name="celebrities">
+
+<a href = "http://www.instyle.com/celebrity/vegetarian-vegan-celebs#2911176">Celebrities Who Are Vegan</a>
+
+    </string>
+
+
+    <string name="healthy">
+
+<a href = "https://www.peta.org/issues/animals-used-for-food/cancer/">Vegan is Healthier</a>
+
+    </string>
+</resources>

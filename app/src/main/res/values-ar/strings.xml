@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project No 3</string>
+    <string name="name">اكتب/ي اسمك هنا</string>
+    <string name="gender">نوعك :</string>
+    <string name="F">جنس ناعم</string>
+    <string name="M">جنس خشن</string>
+    <string name="age">اكتب/ي سنك هنا وبلاش كدب</string>
+    <string name="start">يلا بينا</string>
+    <string name="q1">إن قمت بذبح حيوان فأنت تتسبب في :</string>
+    <string name="rb1.1">ألم فظيع للحيوان مثل تماما احساسك أنت بالذبح</string>
+    <string name="rb1.2">تأخذه من عائلته كمن يأخذك من أهلك ليذبحك</string>
+    <string name="rb1.3">تُنهِي حياة كائن برئ مسكين بيديك بدون اي وجه حق</string>
+    <string name="rbx.4">كل ماتم ذِكره</string>
+    <string name="next1">اللي بعده ></string>
+    <string name="q2">أضرار صناعة اللحوم على البيئة :</string>
+    <string name="rb2.1">صناعة اللحوم تُدَمِر البيئة</string>
+    <string name="rb2.2">انبعاثات هذه الصناعه يفوق كل وسائل المواصلات مجتمعه</string>
+    <string name="rb2.3">صناعة اللحوم تؤثر في التحول المناخي \"الاحتباس الحراري\"</string>
+    <string name="next2">اللي بعده >></string>
+    <string name="q3">أكل اللحوم يتسبب في الاصابه بــ :</string>
+    <string name="rb3.1">الزاهيمر</string>
+    <string name="rb3.2">أمراض القلب</string>
+    <string name="rb3.3">عام 2015 وجد تقرير منظمة الصحة العالمية أن لحم الخنزير المقدد والهوت دوج وغيرها من اللحوم المصنعة يسبب السرطان وأن اللحوم الحمراء - بما في ذلك لحوم البقر ولحم الخنزير والضأن - وعلى الأرجح مسرطنة أيضا.</string>
+    <string name="next3">اللي بعده >>></string>
+
+    <string name="climate">
+
+<a href = "https://www.peta.org/issues/animals-used-for-food/global-warming/">احتباس حراري بعيد عنك</a>
+
+    </string>
+
+    <string name="movies">
+
+<a href = "http://www.vegansouls.com/vegan-documentaries">افلام جامده جدا</a>
+
+    </string>
+
+
+    <string name="celebrities">
+
+<a href = "http://www.instyle.com/celebrity/vegetarian-vegan-celebs#2911176">مشاهير لكن لامؤاخذه نباتيين</a>
+
+    </string>
+
+
+    <string name="healthy">
+
+<a href = "https://www.peta.org/issues/animals-used-for-food/cancer/">النباتية صحية أكتر والنعمه</a>
+
+    </string>
+    <string name="thanks">شكرا لاستخدامك الآب ياجميل,\nولو عاوز تعرف وتفهم اكتر عن النباتية\nدوس على اللينكات اللي تحت دي.</string>
+    <string name="nameJ">لازم تكتب اسمك ياجميل</string>
+    <string name="genderJ"> نسيت تكتب نوعك؟ أظن نركز شوية بقا</string>
+    <string name="ageJ">ياجميل اكتب سنك, ميصحش كده</string>
+    <string name="hiJ">"يا ألف مرحب يا "</string>
+    <string name="hopeJ">"يومك زي الفل "</string>
+    <string name="greatJ">فل الفل, يلا بينا نكمل</string>
+    <string name="sorryJ">معلش ياجميل صح بس مش الاجابه الكاملة</string>
+    <string name="chooseAnswerJ">اختارلك اجابة ياقمر</string>
+    <string name="excellentJ">"أنا قولت شكلك ييجي منك برضه, اللي بعده "</string>
+    <string name="proudJ">هوا ده الكلام ياسيطره</string>
+    <string name="again">مرة كمان\nعلشان الحبايب</string>
+</resources>
