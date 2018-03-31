@@ -16,15 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
 
     public void letsStart(View view) {
 
-
         String Name = ((EditText) findViewById(R.id.name)).getText().toString();
         String Age = ((EditText) findViewById(R.id.age)).getText().toString();
-
 
         RadioButton chooseM = (RadioButton) findViewById(R.id.Male);
         boolean checkM = chooseM.isChecked();
@@ -34,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (Name.length() < 1) {
 
-            Toast.makeText(this, getString(R.string.nameJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.nameJ), Toast.LENGTH_LONG).show();
             return;
         }
 
@@ -42,18 +39,18 @@ public class MainActivity extends AppCompatActivity {
         else if (checkF) ;
 
         else {
-            Toast.makeText(this, getString(R.string.genderJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.genderJ), Toast.LENGTH_LONG).show();
 
             return;
         }
 
         if (Age.length() < 1) {
 
-            Toast.makeText(this, getString(R.string.ageJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.ageJ), Toast.LENGTH_LONG).show();
             return;
         }
 
-        Toast.makeText(this, getString(R.string.hiJ) + " " + Name + " " + getString(R.string.hopeJ), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.hiJ) + " " + Name + " " + getString(R.string.hopeJ), Toast.LENGTH_LONG).show();
         nextToSecondPage(view);
 
     }

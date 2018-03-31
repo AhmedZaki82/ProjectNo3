@@ -61,4 +61,13 @@
     <string name="excellentJ">"أنا قولت شكلك ييجي منك برضه, اللي بعده "</string>
     <string name="proudJ">هوا ده الكلام ياسيطره</string>
     <string name="again">مرة كمان\nعلشان الحبايب</string>
+    <string name="q4">"ايه الكائنات المفضلة عندك من اللي تحت دول: "</string>
+    <string name="cats">قطط</string>
+    <string name="dogs">كلاب</string>
+    <string name="pigs">خنازير</string>
+    <string name="bears">دببه</string>
+    <string name="nothing">مبحبش حد منهم.</string>
+    <string name="scoreJ">"انتا جايب : "</string>
+    <string name="sorry2J">مينفعش ياباشا والله لازم تختارلك اجابه</string>
+    <string name="ohJ">ياراجل عيب عليك حد ميحبش الكائنات الجميلة دي؟</string>
 </resources>

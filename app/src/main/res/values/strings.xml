@@ -37,32 +37,39 @@
     <string name="thanks">Thanks for using the app.\nFor more information about \nVeganism
     click the links below.
     </string>
-
-
+    <string name="q4">Which animals do you like below: </string>
+    <string name="cats">Cats</string>
+    <string name="dogs">Dogs</string>
+    <string name="pigs">Pigs</string>
+    <string name="bears">Bears</string>
+    <string name="nothing">I don\'t like animals.</string>
+    <string name="scoreJ">Your score is: </string>
+    <string name="sorry2J">Sorry You have to choose an answer!</string>
+    <string name="ohJ">OOH! Animals are good man!</string>
     <string name="climate">
 
-<a href = "https://www.peta.org/issues/animals-used-for-food/global-warming/">Global Warming</a>
+<a href="https://www.peta.org/issues/animals-used-for-food/global-warming/">Global Warming</a>
 
     </string>
 
 
     <string name="movies">
 
-<a href = "http://www.vegansouls.com/vegan-documentaries">Watch Movies</a>
+<a href="http://www.vegansouls.com/vegan-documentaries">Watch Movies</a>
 
     </string>
 
 
     <string name="celebrities">
 
-<a href = "http://www.instyle.com/celebrity/vegetarian-vegan-celebs#2911176">Celebrities Who Are Vegan</a>
+<a href="http://www.instyle.com/celebrity/vegetarian-vegan-celebs#2911176">Celebrities Who Are Vegan</a>
 
     </string>
 
 
     <string name="healthy">
 
-<a href = "https://www.peta.org/issues/animals-used-for-food/cancer/">Vegan is Healthier</a>
+<a href="https://www.peta.org/issues/animals-used-for-food/cancer/">Vegan is Healthier</a>
 
     </string>
 </resources>

@@ -16,11 +16,9 @@ public class first_lay extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_lay);
 
-
     }
 
     public void next_1(View view) {
-
 
         RadioButton answer1 = (RadioButton) findViewById(R.id.first_r);
         RadioButton answer2 = (RadioButton) findViewById(R.id.second_r);
@@ -31,36 +29,37 @@ public class first_lay extends AppCompatActivity {
         boolean check2 = answer2.isChecked();
         boolean check3 = answer3.isChecked();
         boolean check4 = answer4.isChecked();
+        int score = 1;
 
         if (check4) {
-            Toast.makeText(this, getString(R.string.greatJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.greatJ)+"." + "\n"+getString(R.string.scoreJ)+score+"/4", Toast.LENGTH_LONG).show();
         } else if (check1) {
 
-            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_LONG).show();
 
             return;
         } else if (check2) {
 
-            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_LONG).show();
 
             return;
         } else if (check3) {
 
-            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_LONG).show();
 
             return;
         } else {
 
-            Toast.makeText(this, getString(R.string.chooseAnswerJ), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.chooseAnswerJ), Toast.LENGTH_LONG).show();
             return;
         }
 
         nextToThirdPage(view);
 
-
     }
 
     private void nextToThirdPage(View view) {
+
         Intent intent = new Intent(this, second_lay.class);
         startActivity(intent);
 

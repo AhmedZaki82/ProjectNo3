@@ -9,9 +9,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/motherhood1"
-
         />
-
 
     <Button
         android:id="@+id/next1"
@@ -26,8 +24,6 @@
         android:text="@string/next1"
         android:onClick="next_1"
         android:background="#AED581"
-
-
         >
 
     </Button>
@@ -39,7 +35,6 @@
         >
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/q1"
@@ -78,7 +73,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="@string/rb1.3"
-
                 />
 
             <RadioButton

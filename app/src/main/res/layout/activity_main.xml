@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +8,6 @@
     tools:context="com.example.android.projectno3.MainActivity"
     android:background="#FFFFFF"
     >
-
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -33,7 +32,6 @@
             android:text="@string/start"
             android:onClick="letsStart"
             android:background="#AED581"
-
             />
 
     </RelativeLayout>
@@ -42,54 +40,51 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        >
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
         <EditText
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/name"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
-            android:inputType="textCapWords"
             android:gravity="center"
-            />
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
 
         <TextView
             android:id="@+id/gen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/gender"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingStart="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_gravity="center_horizontal"
+            android:text="@string/gender"
             android:textSize="15sp"
-
-
             />
 
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_gravity="center"
-            >
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/Female"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/F"
-                />
+                android:text="@string/F" />
+
             <RadioButton
                 android:id="@+id/Male"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/M"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                />
+                android:text="@string/M" />
 
         </RadioGroup>
 
@@ -98,11 +93,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:hint="@string/age"
             android:gravity="center"
-            android:inputType="textCapWords"
-            />
+            android:hint="@string/age"
+            android:inputType="textCapWords" />
+
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
 
