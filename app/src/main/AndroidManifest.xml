@@ -16,11 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".first_lay" />
-        <activity android:name=".second_lay" />
-        <activity android:name=".third_lay" />
-        <activity android:name=".fourth_lay" />
-        <activity android:name=".fifth_lay"></activity>
+        <activity android:name=".FirstLay" />
+        <activity android:name=".SecondLay" />
+        <activity android:name=".ThirdLay" />
+        <activity android:name=".FourthLay" />
+        <activity android:name=".FifthLay" />
+        <activity android:name=".SixthLay"></activity>
     </application>
 
 </manifest>

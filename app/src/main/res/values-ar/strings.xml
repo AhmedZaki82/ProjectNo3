@@ -12,17 +12,17 @@
     <string name="rb1.2">تأخذه من عائلته كمن يأخذك من أهلك ليذبحك</string>
     <string name="rb1.3">تُنهِي حياة كائن برئ مسكين بيديك بدون اي وجه حق</string>
     <string name="rbx.4">كل ماتم ذِكره</string>
-    <string name="next1">اللي بعده ></string>
+    <string name="next1">اللي بعده </string>
     <string name="q2">أضرار صناعة اللحوم على البيئة :</string>
     <string name="rb2.1">صناعة اللحوم تُدَمِر البيئة</string>
     <string name="rb2.2">انبعاثات هذه الصناعه يفوق كل وسائل المواصلات مجتمعه</string>
     <string name="rb2.3">صناعة اللحوم تؤثر في التحول المناخي \"الاحتباس الحراري\"</string>
-    <string name="next2">اللي بعده >></string>
+    <string name="next2">اللي بعده</string>
     <string name="q3">أكل اللحوم يتسبب في الاصابه بــ :</string>
     <string name="rb3.1">الزاهيمر</string>
     <string name="rb3.2">أمراض القلب</string>
     <string name="rb3.3">عام 2015 وجد تقرير منظمة الصحة العالمية أن لحم الخنزير المقدد والهوت دوج وغيرها من اللحوم المصنعة يسبب السرطان وأن اللحوم الحمراء - بما في ذلك لحوم البقر ولحم الخنزير والضأن - وعلى الأرجح مسرطنة أيضا.</string>
-    <string name="next3">اللي بعده >>></string>
+    <string name="next3">اللي بعده</string>
 
     <string name="climate">
 
@@ -61,7 +61,7 @@
     <string name="excellentJ">"أنا قولت شكلك ييجي منك برضه, اللي بعده "</string>
     <string name="proudJ">هوا ده الكلام ياسيطره</string>
     <string name="again">مرة كمان\nعلشان الحبايب</string>
-    <string name="q4">"ايه الكائنات المفضلة عندك من اللي تحت دول: "</string>
+    <string name="q4">"تفتكر أنا بحب أي نوع من الكائنات اللي تحت دول؟ "</string>
     <string name="cats">قطط</string>
     <string name="dogs">كلاب</string>
     <string name="pigs">خنازير</string>
@@ -70,4 +70,17 @@
     <string name="scoreJ">"انتا جايب : "</string>
     <string name="sorry2J">مينفعش ياباشا والله لازم تختارلك اجابه</string>
     <string name="ohJ">ياراجل عيب عليك حد ميحبش الكائنات الجميلة دي؟</string>
+    <string name="backJ">مينفعش تجيب ورا ياجميل, اللي فات مات ;)</string>
+    <string name="wrongJ">اجابتك غلط آساحبي</string>
+    <string name="watsonJ">دونالد واتسون</string>
+    <string name="trumpJ">دونالد ترامب</string>
+    <string name="duckJ">دونالد دك</string>
+    <string name="three">معلش ياجميل تعالى على نفسك واختارلك اجابه من المتلقحين فوق دول</string>
+    <string name="jobJ">هوه ده الكلام يامنجهه</string>
+    <string name="vegan">تفتكر مين اللي اخترع كلمة \"فيجان\" ؟</string>
+    <string name="watson">1- دونالد واتسون</string>
+    <string name="trump">2- دونالد ترامب</string>
+    <string name="duck">3- دونالد دك</string>
+    <string name="answer">اهبد اسم اي حد منهم هنا وارزع الزرار الاخضر اللي تحت ده اسم الله ع مقامك</string>
+    <string name="answerJ">ايه الفخامه دي ياجودعان</string>
 </resources>

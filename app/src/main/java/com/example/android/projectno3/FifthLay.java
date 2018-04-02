@@ -5,10 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.RadioButton;
 import android.widget.Toast;
 
-public class fifth_lay extends AppCompatActivity {
+public class FifthLay extends ThirdLay {
+
+    static int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +18,6 @@ public class fifth_lay extends AppCompatActivity {
     }
 
     public void next_5(View view) {
-
-        int score = 4;
 
         CheckBox first_c = findViewById(R.id.first_c);
         CheckBox second_c = findViewById(R.id.second_c);
@@ -33,35 +32,37 @@ public class fifth_lay extends AppCompatActivity {
         boolean check5 = fifth_c.isChecked();
 
         if (check1) {
-
-            Toast.makeText(this, getString(R.string.scoreJ)+score+"/4", Toast.LENGTH_LONG).show();
+            score = ++score;
+            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
         } else if (check2) {
-
-            Toast.makeText(this, getString(R.string.scoreJ), Toast.LENGTH_LONG).show();
-
+            score = ++score;
+            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
         } else if (check3) {
-
-            Toast.makeText(this, getString(R.string.scoreJ) + score + "/4", Toast.LENGTH_LONG).show();
+            score = ++score;
+            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
         } else if (check4) {
-
-            Toast.makeText(this, getString(R.string.scoreJ) + score + "/4", Toast.LENGTH_LONG).show();
+            score = ++score;
+            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
         } else if (check5) {
-
-            Toast.makeText(this, getString(R.string.ohJ)+"\n"+getString(R.string.scoreJ) + score + "/4", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.wrongJ), Toast.LENGTH_LONG).show();
         } else {
-
             Toast.makeText(this, getString(R.string.sorry2J), Toast.LENGTH_LONG).show();
             return;
         }
 
         nextToFifthPage(view);
-
     }
+
+    public void onBackPressed() {
+
+        Toast.makeText(this, getString(R.string.backJ), Toast.LENGTH_LONG).show();
+        return;
+    }
+
 
     private void nextToFifthPage(View view) {
 
-        Intent intent = new Intent(this, fourth_lay.class);
+        Intent intent = new Intent(this, SixthLay.class);
         startActivity(intent);
-
     }
 }

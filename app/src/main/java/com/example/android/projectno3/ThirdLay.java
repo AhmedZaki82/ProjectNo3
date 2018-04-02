@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-public class third_lay extends AppCompatActivity {
+public class ThirdLay extends SecondLay {
+
+    static int score;
 
     @Override
 
@@ -15,7 +17,6 @@ public class third_lay extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_lay);
-
     }
 
     public void next_3(View view) {
@@ -29,25 +30,23 @@ public class third_lay extends AppCompatActivity {
         boolean check2 = answer2.isChecked();
         boolean check3 = answer3.isChecked();
         boolean check4 = answer4.isChecked();
-        int score = 3;
 
         if (check4) {
-            Toast.makeText(this, getString(R.string.proudJ)+"." + "\n"+getString(R.string.scoreJ)+score+"/4", Toast.LENGTH_LONG).show();
+            score = ++score;
+
+            Toast.makeText(this, getString(R.string.proudJ)+".", Toast.LENGTH_LONG).show();
         } else if (check1) {
 
-            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.sorryJ)+"." , Toast.LENGTH_LONG).show();
 
-            return;
         } else if (check2) {
 
-            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.sorryJ)+"." , Toast.LENGTH_LONG).show();
 
-            return;
         } else if (check3) {
 
-            Toast.makeText(this, getString(R.string.sorryJ), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.sorryJ)+"." , Toast.LENGTH_LONG).show();
 
-            return;
         } else {
 
             Toast.makeText(this, getString(R.string.chooseAnswerJ), Toast.LENGTH_LONG).show();
@@ -57,10 +56,15 @@ public class third_lay extends AppCompatActivity {
         nextToFifthPage(view);
     }
 
+    public void onBackPressed() {
+
+        Toast.makeText(this, getString(R.string.backJ), Toast.LENGTH_LONG).show();
+        return;
+    }
+
     private void nextToFifthPage(View view) {
 
-        Intent intent = new Intent(this, fifth_lay.class);
+        Intent intent = new Intent(this, FifthLay.class);
         startActivity(intent);
-
     }
 }

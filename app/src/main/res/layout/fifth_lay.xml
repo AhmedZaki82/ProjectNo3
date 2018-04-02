@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.projectno3.fifth_lay">
+    tools:context="com.example.android.projectno3.FifthLay">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -84,9 +84,11 @@
         android:id="@+id/fourth_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/linearLayout"
-        android:layout_alignRight="@+id/linearLayout"
-        android:layout_alignTop="@+id/third_c"
+        android:layout_above="@+id/fifth_c"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_toLeftOf="@+id/next1"
+        android:layout_toStartOf="@+id/next1"
         android:text="@string/bears" />
 
     <CheckBox

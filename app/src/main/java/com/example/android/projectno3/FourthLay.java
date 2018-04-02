@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
-public class fourth_lay extends AppCompatActivity {
-
+public class FourthLay extends AppCompatActivity {
 
     @Override
 
@@ -28,8 +28,6 @@ public class fourth_lay extends AppCompatActivity {
 
         TextView textHealthy = (TextView) findViewById(R.id.healthy);
         textHealthy.setMovementMethod(LinkMovementMethod.getInstance());
-
-
     }
 
     public void second(View view) {
@@ -37,12 +35,21 @@ public class fourth_lay extends AppCompatActivity {
         again(view);
     }
 
+    public void onBackPressed() {
+
+        Toast.makeText(this, getString(R.string.backJ), Toast.LENGTH_LONG).show();
+        return;
+    }
 
     public void again(View view) {
 
+        FirstLay.score = 0;
+        SecondLay.score = 0;
+        ThirdLay.score = 0;
+        FifthLay.score = 0;
+        SixthLay.score = 0;
+
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-
-
     }
 }

@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     public void letsStart(View view) {
@@ -55,11 +54,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onBackPressed() {
+
+        Toast.makeText(this, getString(R.string.backJ), Toast.LENGTH_SHORT).show();
+        return;
+    }
 
     private void nextToSecondPage(View view) {
-        Intent intent = new Intent(this, first_lay.class);
+
+        Intent intent = new Intent(this, FirstLay.class);
         startActivity(intent);
 
     }
-
 }
