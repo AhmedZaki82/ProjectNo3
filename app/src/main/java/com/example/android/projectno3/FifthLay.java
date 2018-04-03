@@ -31,23 +31,18 @@ public class FifthLay extends ThirdLay {
         boolean check4 = fourth_c.isChecked();
         boolean check5 = fifth_c.isChecked();
 
-        if (check1) {
-            score = ++score;
-            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
-        } else if (check2) {
-            score = ++score;
-            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
-        } else if (check3) {
-            score = ++score;
-            Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
-        } else if (check4) {
+        if (check1 && check2 && check3 && check4) {
             score = ++score;
             Toast.makeText(this, getString(R.string.jobJ), Toast.LENGTH_LONG).show();
         } else if (check5) {
             Toast.makeText(this, getString(R.string.wrongJ), Toast.LENGTH_LONG).show();
-        } else {
+        } else if (check1 && check2 && check3 && check4 && check5) {
+            Toast.makeText(this, getString(R.string.wrongJ), Toast.LENGTH_LONG).show();
+        } else if (!check1 && !check2 && !check3 && !check4 && !check5){
             Toast.makeText(this, getString(R.string.sorry2J), Toast.LENGTH_LONG).show();
             return;
+        } else {
+            Toast.makeText(this, getString(R.string.wrongJ), Toast.LENGTH_LONG).show();
         }
 
         nextToFifthPage(view);
